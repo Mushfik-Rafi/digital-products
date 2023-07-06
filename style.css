@@ -4,7 +4,7 @@
 }
 .menu-container{
     background-color: rgb(19, 19, 19);
-    padding: 15px;
+    padding: 20px;
     color: white;
     list-style: none;
     display: flex;
@@ -39,6 +39,9 @@
     color:white;
     align-items: center;
     background-image: url("images/background.png"),linear-gradient(45deg,#080808,#131313);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .title{
     font-size: 55px;
@@ -56,7 +59,99 @@
     border: none;
     border-radius: 15px;
     cursor: pointer;
+    margin-top: 20px;
 }
 .bt:hover{
     color: aqua;
 }
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 25px;
+}
+.abc{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    
+    
+
+}
+.para{
+    font-size: 20px;
+    
+    margin bottom: 100px;
+    margin-top: 20px;
+    
+}
+.box{
+    width: 320px;
+    height: 360px;
+    box-shadow: 4px 5px 18px grey;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 100px;
+}
+.box-bt{
+    background-color: grey;
+    margin-top: 20px;
+}
+.box-title{
+    padding: 10px;
+    font-size: 20px;
+}
+.
+.box-description{
+    padding: 10px;
+    font-size: 15px;
+}
+.service{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(29, 27, 27);
+}
+.log{
+    width: 150px;
+    height: 30px;
+    /* height: 100px; */
+    
+    
+
+}
+.lis{
+    list-style: none;
+}
+.footy{
+    text-align: left;
+    width: 300px;
+    height: 100px;
+    /* box-shadow: 4px 5px 18px grey; */
+    /* background-color: black; */
+    /* text-align: center; */
+    padding: 15px;
+    color: white;
+    
+
+}
+.sec{
+    background-color: black;
+    
+
+}
+.foot{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 300px;
+    
+}
+
+
