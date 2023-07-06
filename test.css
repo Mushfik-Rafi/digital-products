@@ -4,5 +4,23 @@
 }
 .test{
     color: aqua;
-    /* cursor: url("https://en.wikipedia.org/wiki/Emoji#/media/File:Twemoji_1f600.svg"),auto; */
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"),auto;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column-reverse; */
+    border: 100px solid grey;
+}
+.box{
+    padding: 20px;
+    background-color: blue;
+    width: 120px;
+    }
+.box2{
+    background-color: brown;
+} 
+.box3{
+     background-color: aqua; 
+ } 
